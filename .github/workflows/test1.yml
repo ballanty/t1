@@ -9,4 +9,5 @@ jobs:
     steps:
       - run: echo "Hello, world!"
       - run: echo "Step next"
+      - run: pwd
       - run: python3 test.py
