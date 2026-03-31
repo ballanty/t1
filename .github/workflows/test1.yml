@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world!"
-      - run: python test.py
+      - run: echo "Step next"
+      - run: python3 test.py
