@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout
         with:
-	  ref: main
+	        ref: main
       - run: echo "Hello, world!"
       - run: echo "Step next"
       - run: pwd
